@@ -1,0 +1,45 @@
+string are immutable in javascript
+arrays are mutable in javascript
+
+
+push():add to end;
+pop():delete from end
+toString():converts arrays to String
+always return the string value as new without making any other changes
+
+
+
+let surviours=dc_heros.concat(marvel_heroes);
+console.log(surviours);
+
+
+shift():delete from start & return
+unshift():add to start
+
+higher order function---foreach
+which taking the function as input and returning the function
+
+
+let arr1=["mumbai","delhi","dhaka","columbo"]
+console.log("    ");
+arr1.forEach((val,i)=>{
+  console.log(val.toUpperCase(),i);//printing the value of the arrays in the capital letters
+});
+
+arr.map(callbackfunc(value,index,arrays))
+
+
+Window object 
+this window object represents an open window in a browser.it is browser's object (not javascript)&
+automatically created by the browser
+# it is a global object with lots of properties & methods
+
+
+mouse events
+clic,double click
+
+keyboard events=keypress,keyup,keydown
+
+form events(submits)
+
+print event & many more
